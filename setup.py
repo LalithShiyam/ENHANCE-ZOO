@@ -8,8 +8,8 @@ setup(
     author_email='lalith.shiyamsundar@meduniwien.ac.at',
     url='',  # Add your package's homepage URL here
     description='',  # Add a short description of the package here
-    # long_description=open('README.md').read(),
-    # long_description_content_type='text/markdown',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     install_requires=[
         'streamlit',
         'moosez',
