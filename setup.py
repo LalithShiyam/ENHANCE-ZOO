@@ -2,9 +2,16 @@ from setuptools import setup, find_packages
 
 setup(
     name='enhancez',
-    version='0.3',
-    packages=find_packages(),
-    author='Lalith Kumar Shiyam Sundar ',
+    version='0.4',
+    packages=find_packages(include=['enhancez', 'enhancez.*']),
+    include_package_data=True,  # Ensure non-Python files are included
+    package_data={
+        'enhancez': [
+            'pages/*',  # Include all files in the pages directory
+            '.streamlit/*',  # Include all files in the .streamlit directory
+        ],
+    },
+    author='Lalith Kumar Shiyam Sundar',
     author_email='lalith.shiyamsundar@meduniwien.ac.at',
     url='',  # Add your package's homepage URL here
     description='',  # Add a short description of the package here
@@ -25,14 +32,14 @@ setup(
         'extra_streamlit_components',
         'streamlit_image_comparison',
         'streamlit-toggle-button-set'
-    ],  # List your package's dependencies here
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
     ],
     python_requires='>=3.10',
     entry_points={
         'console_scripts': [
-            'enhancez=enhancez.run_streamlit:run',
+            'enhancez=enhancez.run_streamlit:run',  # Adjust to call the run function from run_streamlit.py
         ],
     },
 )
