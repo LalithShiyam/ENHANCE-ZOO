@@ -1,3 +1,4 @@
+![Enhance-logo.png](/Images/ENHANCE-ZOO-logo.png)
 # EnhanceZ: Web Service for ENHANCE.PET
 ## Overview
 
