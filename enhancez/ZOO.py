@@ -68,7 +68,7 @@ def run():
 Welcome to ENHANCE-ZOO — your centralized hub for exploring the powerful ENHANCE-PET software suite. Whether you're a non-programmer or a busy physician, ENHANCE-ZOO is designed with you in mind. You don't need to install anything or open a terminal. Simply upload your data, and let our platform handle the rest. With ENHANCE-ZOO, you can seamlessly try out our cutting-edge PET imaging tools directly from your browser. Dive into our suite of applications by clicking on the various tools listed in the sidebar. We are excited to see how ENHANCE-ZOO can assist you in revolutionizing your PET imaging workflows!"""
 
     st.markdown(f'<p class="intro-text">{intro_text}</p>', unsafe_allow_html=True)
-    st.markdown(f'<p class="intro-text">Cheers from the ENHANCE-PET Team</p>', unsafe_allow_html=True)
+    st.markdown(f'<p class="intro-text">Cheers from the ENHANCE-PET Team 🥂</p>', unsafe_allow_html=True)
 
 
 if __name__ == '__main__':
