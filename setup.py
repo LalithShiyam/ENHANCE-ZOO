@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='enhancez',
-    version='0.6',
+    version='0.7',
     packages=find_packages(include=['enhancez', 'enhancez.*']),
     include_package_data=True,  # Ensure non-Python files are included
     package_data={
