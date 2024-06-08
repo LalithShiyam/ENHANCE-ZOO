@@ -33,9 +33,15 @@ MEDIA = {
                        "in PET images, ensuring accurate and reliable results."
     },
     "PUMA": {
-        "logo": "https://github.com/toolB/logo.png",
+        "logo": "https://github.com/ENHANCE-PET/.github/blob/main/profile/Puma-logo.png?raw=true",
         "demo_video": "https://www.youtube.com/watch?v=demo_toolB",
-        "tutorial_video": "https://www.youtube.com/watch?v=tutorial_toolB"
+        "tutorial_video": "https://www.youtube.com/watch?v=tutorial_toolB",
+        "tag_line": "PUMA 1.0 🐾 - One Image multiple perspectives 🎭",
+        "description": "PUMA is a tool to multiplex different tracer PET data from the same patient. It is a "
+                       "user-friendly tool that facilitates the visualization of multiple PET tracers in a single "
+                       "image, providing healthcare professionals with a comprehensive view of the patient's condition."
+                       "Experience the power of PUMA, your partner in enhancing diagnostic accuracy and clinical "
+                       "outcomes."
     },
     "LION": {
         "logo": "https://github.com/LalithShiyam/LION/blob/main/Images/lion.png?raw=true",

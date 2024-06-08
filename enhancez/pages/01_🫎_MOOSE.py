@@ -172,7 +172,7 @@ st.write(options)
 
 # Button to run the models
 if st.session_state.file_uploaded and options:
-    if st.button("Run Models"):
+    if st.button("Run MOOSE 🦌"):
         with st.container():
             lottie_placeholder = st.empty()
             timer_text = st.empty()
