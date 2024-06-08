@@ -58,7 +58,7 @@ st.markdown(css, unsafe_allow_html=True)
 
 
 def run():
-    st.image("https://github.com/ENHANCE-PET/.github/blob/main/profile/EANM-ENHANCE-PET-Reveal.gif?raw=true",
+    st.image("https://github.com/LalithShiyam/ENHANCE-ZOO/blob/master/Images/ENHANCE-ZOO-logo.png?raw=true",
              use_column_width='auto')
 
     st.header('ENHANCE-ZOO: A one-stop shop for PET imaging analysis', divider='rainbow')
