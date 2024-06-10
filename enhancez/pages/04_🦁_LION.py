@@ -165,7 +165,7 @@ model = st.selectbox(
 
 # Button to run the models
 if st.session_state.file_uploaded and model:
-    if st.button("Run Models"):
+    if st.button("Run LION 🦁"):
         with st.container():
             lottie_placeholder = st.empty()
             timer_text = st.empty()
@@ -192,7 +192,7 @@ if st.session_state.file_uploaded and model:
             st.success("All models processed successfully!")
 
             # Create a ZIP file of the lion_dir with a progress bar
-            st.subheader("Packing your LION'd data! 🦌🎉")
+            st.subheader("Packing your LION'd data! 🦁🎉")
 
             zip_file = create_zip_file(st.session_state.lion_dir)
             st.session_state.zip_file = zip_file
